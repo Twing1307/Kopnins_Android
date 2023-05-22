@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">doodle</string>
+    <string name="play">play</string>
+    <string name="enter_name">Enter name: </string>
+    <string name="hello">Hello</string>
+    <string name="score">Record</string>
+    <string name="acc">Accelerometer control</string>
+    <string name="gameOver">Game Over</string>
+    <string name="relay">Start again</string>
+
+
+</resources>

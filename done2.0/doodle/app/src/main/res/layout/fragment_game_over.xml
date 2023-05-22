@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/backgound"
+    android:layout_gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".presentation.GameOverFragment">
+
+    <TextView
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gameOver" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_marginTop="30dp"
+        android:id="@+id/over_btn"
+        android:layout_width="130dp"
+        android:background="@color/purple_500"
+        android:text="@string/relay"
+        android:layout_height="50dp"/>
+
+</LinearLayout>
